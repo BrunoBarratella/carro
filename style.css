@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+.Cadastro{
+    width: 100%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+
+.quadroDeCadastro{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 1.5em 5em;
+}
+
+.tituloQuadroDeCadastro{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    color: rgb(22, 58, 156);
+    border-bottom: 1px solid black;
+}
+
+ .formulario{
+ 
+    margin-top: -150px;
+}
+
+.tabela{
+    width: 115%;
+}
+
+input{
+    border: 1px solid gray;
+    height: 30px;
+}
+
+table input{
+    margin-left: -10px;
+}
+
+.tituloInput{
+    display: flex;
+    flex-direction: row;
+}
+
+.formMinInput{
+    width: 80px;
+}
+
+.right{
+    margin-left: 1em;
+
+}
+
+.obs{
+    width: 100%;
+}
+
+.obsInput{
+    width: 115%;
+    height: 40%;
+}
+
+.btn{
+    padding: 0.5em 2em;
+    color: white;
+    border-radius: 5px;
+}
+
+.azul{
+    background-color:rgb(22, 58, 156);
+}
+
+.verde{
+    background-color: rgb(36, 155, 36);
+}
