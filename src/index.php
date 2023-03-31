@@ -1,6 +1,5 @@
 <?php 
 require_once "./class/carros_class.php";
-
 $carro = new Carros();
 ?>
 
@@ -11,14 +10,15 @@ $carro = new Carros();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastra Carros</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./img/379346_old_car_icon.png">
 </head>
 
 <body>
     <div class="Cadastro">
         <div class="quadroDeCadastro">
             <h1 class="tituloQuadroDeCadastro">Cadastro de Veículo</h1>
-            <form action="" class="formulario">
+            <form action="listaVeiculos.php" method="post" class="formulario">
                 <table class="tabela">
                     <tr class="linhaTabela">
                         <th>
@@ -51,22 +51,20 @@ $carro = new Carros();
                         </th>
                         <th>
                             <label for="fipe" class="tituloInput">Valor na tabela Fipe R$</label> <br>
-                            <input type="float" name="fipe">
+                            <input type="" name="fipe">
                         </th>
                     </tr>
                 </table>
-                <br><br><label for="observacao" class="tituloInput"><b>Observação</b></label>
-                <input type="text" name="observacao" class="obsInput">
+                <br><br>
+
+                <label for="observacao" class="tituloInput"><b>Observação</b></label>
+                <textarea name="observacao" class="obsInput"></textarea>
+
             <br><br><br>
             <button type="submit" class="btn verde">Gravar</button>
-            <button type="reset" class="btn azul">Novo</button>
             </form>
         </div>
     </div>
 </body>
 
 </html>
-
-<?php
-
-$carro->set();

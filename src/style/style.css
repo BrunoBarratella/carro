@@ -73,6 +73,8 @@ table input{
 .obsInput{
     width: 115%;
     height: 40%;
+    resize: unset;
+    border: 110px solid black;
 }
 
 .btn{
