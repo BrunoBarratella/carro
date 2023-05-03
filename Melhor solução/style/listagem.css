@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+.listagem{
+    display: flex;
+    justify-content: center;
+}
+
+.listagemTitulo{
+    display: flex;
+    height: 40px;
+    
+}
+
+.quadroListagem{
+
+    background-color: white;
+    width: 80%;
+    padding: 1em 4em;
+    border-radius: 10px;
+}
+
+.linhaEscura{
+    background-color: rgb(151, 150, 150);
+}
+
+.tabela{
+    background-color: white;
+    width: 100%;
+    border-spacing: 0px;
+}
